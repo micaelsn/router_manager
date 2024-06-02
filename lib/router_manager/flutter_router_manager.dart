@@ -11,7 +11,7 @@ class FlutterRouteManager {
             builder: (_) => const MyHomePage(
                   title: 'FlutterRouteManager',
                 ));
-      case '/second':
+      case '/profile':
         return MaterialPageRoute(
             builder: (_) => const MyProfilePage(
                   title: 'Profile',
