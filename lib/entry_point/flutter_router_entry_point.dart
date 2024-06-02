@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../router_manager/flutter_router_manager.dart';
 
-class FlutterRouterEntryLevel {
+class FlutterRouterEntryPoint {
   build() {
     MaterialApp(
       title: 'Flutter Router Demo',

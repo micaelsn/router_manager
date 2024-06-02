@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'entry_level/flutter_modular_entry_point.dart';
-// import 'entry_level/flutter_router_entry_level.dart';
+import 'entry_point/flutter_modular_entry_point.dart';
+// import 'entry_point/flutter_router_entry_point.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,6 +13,6 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return FlutterModularEntryPoint().build();
-    // return FlutterRouterEntryLevel().build();
+    // return FlutterRouterEntryPoint().build();
   }
 }
